@@ -8,7 +8,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
             <div className="flex items-center mb-4">
-              <Calculator className="h-8 w-8 text-amber-500" />
+             <img src="/images/logo.svg" alt="Galactika Logo" className="h-10 w-auto" />
               <span className="ml-2 text-xl font-bold">Galactika</span>
             </div>
             <p className="text-slate-400">
@@ -58,10 +58,14 @@ export default function Footer() {
           <div>
             <h4 className="text-lg font-semibold mb-4 text-amber-500">Aloqa ma'lumotlari</h4>
             <div className="space-y-2 text-slate-400">
-              <p>+998 99 999-99-99</p>
+              <p>+998 93 877-11-96</p>
               <p>info@galactika.info</p>
               <p>
-               Samarqand, O'zbekiston
+               Samarqand viloyati, Samarqand shahar, 
+               <br />
+               ul. Buyuk Ipak Yo‘li, dom 30
+               <br />
+               Mo‘ljal: Povorot
                 {/* <br />
                 Shahar markazi, ST 12345 */}
               </p>

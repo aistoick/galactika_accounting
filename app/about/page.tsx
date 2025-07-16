@@ -29,7 +29,7 @@ export default function AboutPage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-16">
             <div>
               <Image
-                src="/placeholder.svg?height=400&width=500"
+                src="/images/about_us.svg"
                 alt="Sterling & Hamkorlar jamoasi"
                 width={500}
                 height={400}
@@ -106,49 +106,81 @@ export default function AboutPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="bg-white p-8 rounded-lg shadow-lg text-center border border-slate-200">
               <Image
-                src="/placeholder.svg?height=150&width=150"
-                alt="Robert Sterling - CPA, Bosh hamkor"
+                src="/images/sardor.jpg"
+                alt="Ruzimaxmatov Sardor"
                 width={150}
                 height={150}
-                className="rounded-full mx-auto mb-4"
+                className="rounded-full mx-auto mb-4 object-cover"
+                style={{ aspectRatio: "1 / 1" }}
               />
-              <h3 className="text-xl font-semibold text-slate-900 mb-2">Sardor</h3>
-              <p className="text-amber-600 font-medium mb-3">CPA, Bosh hamkor</p>
+              <h3 className="text-xl font-semibold text-slate-900 mb-2">Ruzimaxmatov Sardor G‘ani o‘g‘li</h3>
+              <p className="text-amber-600 font-medium mb-3">Buxgalter, Iqtisodchi, Biznes Konsultant, Iqtisodiy Yuridik Mutaxassis</p>
               <p className="text-slate-600">
-                Korporativ buxgalteriya va soliq rejalashtirishda 15+ yillik tajriba. Biznes maslahat va moliyaviy
-                strategiya bo'yicha mutaxassis.
+                Iqtisodiyot, buxgalteriya va biznes yuritishda kompleks yechimlar bo‘yicha 7+ yillik tajriba. Soliq rejalashtirish, huquqiy maslahat va strategik moliyaviy boshqaruv sohalarida mutaxassis.
               </p>
             </div>
 
             <div className="bg-white p-8 rounded-lg shadow-lg text-center border border-slate-200">
               <Image
-                src="/placeholder.svg?height=150&width=150"
-                alt="Maria Rodriguez - CPA, Katta hamkor"
+                src="/images/suxrob.jpg"
+                alt="Suhrob"
                 width={150}
                 height={150}
-                className="rounded-full mx-auto mb-4"
+                className="rounded-full mx-auto mb-4 object-cover"
+                style={{ aspectRatio: "1 / 1" }}
               />
-              <h3 className="text-xl font-semibold text-slate-900 mb-2">Maria Rodriguez</h3>
-              <p className="text-amber-600 font-medium mb-3">CPA, Katta hamkor</p>
+              <h3 className="text-xl font-semibold text-slate-900 mb-2">Ruzimaxmatov Suxrob</h3>
+              <p className="text-amber-600 font-medium mb-3">Direktor, Buxgalter</p>
               <p className="text-slate-600">
-                20+ yillik tajriba bilan jismoniy shaxslar va biznes soliq tayyorlash bo'yicha mutaxassis. Soliq
-                optimallashtirish va qonunga rioya qilishga e'tibor beradi.
+                Korxona boshqaruvi va buxgalteriya sohasida zamonaviy yondashuvga ega yosh rahbar. Moliyaviy nazorat va hisobot yuritishda samarali tizimlarni joriy qilish bo‘yicha tajribali mutaxassis.
               </p>
             </div>
 
             <div className="bg-white p-8 rounded-lg shadow-lg text-center border border-slate-200">
               <Image
-                src="/placeholder.svg?height=150&width=150"
+                src="/images/javlon.jpg"
                 alt="David Chen - CPA, Katta yordamchi"
                 width={150}
                 height={150}
-                className="rounded-full mx-auto mb-4"
+                className="rounded-full mx-auto mb-4 object-cover"
+                style={{ aspectRatio: "1 / 1" }}
               />
-              <h3 className="text-xl font-semibold text-slate-900 mb-2">David Chen</h3>
-              <p className="text-amber-600 font-medium mb-3">CPA, Katta yordamchi</p>
+              <h3 className="text-xl font-semibold text-slate-900 mb-2">Berdiyorov Javlon</h3>
+              <p className="text-amber-600 font-medium mb-3">Buxgalter, 1C Dasturchi va Administrator</p>
               <p className="text-slate-600">
-                Kichik biznes buxgalteriyasi va ish haqi xizmatlari bo'yicha mutaxassis. Bizneslarning moliyaviy
-                operatsiyalarini soddalashtirish bo'yicha 15+ yillik tajriba.
+                Buxgalteriya tizimlarini avtomatlashtirishda, ayniqsa 1C platformasida samarali yechimlar ishlab chiqish va boshqarishda tajribali mutaxassis. 
+              </p>
+            </div>
+
+             <div className="bg-white p-8 rounded-lg shadow-lg text-center border border-slate-200">
+              <Image
+                src="/images/shoxzod.jpg"
+                alt="David Chen - CPA, Katta yordamchi"
+                width={150}
+                height={150}
+                className="rounded-full mx-auto mb-4 object-cover"
+                style={{ aspectRatio: "1 / 1" }}
+              />
+              <h3 className="text-xl font-semibold text-slate-900 mb-2">Berdiyorov Shoxzod Eraliyevich</h3>
+              <p className="text-amber-600 font-medium mb-3">Buxgalter, Tarixchi</p>
+              <p className="text-slate-600">
+                Moliya va buxgalteriya sohasida chuqur bilimga ega, tarixiy tahlil va ilmiy tadqiqotlarda faol mutaxassis. Iqtisodiy jarayonlarni tarixiy kontekstda baholay oladigan keng ko‘lamli yondashuv egasi.
+              </p>
+            </div>
+
+              <div className="bg-white p-8 rounded-lg shadow-lg text-center border border-slate-200">
+              <Image
+                src="/images/suvanov.png"
+                alt="David Chen - CPA, Katta yordamchi"
+                width={150}
+                height={150}
+                className="rounded-full mx-auto mb-4 object-cover"
+                style={{ aspectRatio: "1 / 1" }}
+              />
+              <h3 className="text-xl font-semibold text-slate-900 mb-2">Suvanov Abbos Abriy o‘g‘li</h3>
+              <p className="text-amber-600 font-medium mb-3">Buxgalter</p>
+              <p className="text-slate-600">
+                Moliya va buxgalteriya sohasida tartibli hisobot yuritish hamda korxona faoliyatini moliyaviy jihatdan tahlil qilishda malakali mutaxassis.
               </p>
             </div>
           </div>

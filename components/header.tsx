@@ -4,6 +4,7 @@ import Link from "next/link"
 import { usePathname } from "next/navigation"
 import { useState } from "react"
 import { Calculator, Menu, X } from "lucide-react"
+import Image from "next/image"
 
 export default function Header() {
   const pathname = usePathname()
@@ -27,9 +28,9 @@ export default function Header() {
         <div className="flex justify-between items-center h-16">
           {/* Logo - Kompakt versiya */}
           <Link href="/" className="flex items-center flex-shrink-0" onClick={closeMenu}>
-            <Calculator className="h-7 w-7 text-amber-500" />
-            <span className="ml-2 text-lg font-bold text-white hidden sm:block">Galactika</span>
-            <span className="ml-2 text-lg font-bold text-white sm:hidden">Galactika</span>
+             <Image src="images/logo.svg" alt="Galactika Logo" width={50} height={50} />
+            <span className="ml-2 text-lg font-bold text-white hidden sm:block">GALACTIKA</span>
+            <span className="ml-2 text-lg font-bold text-white sm:hidden">GALACTIKA</span>
           </Link>
 
           {/* Desktop Navigation - Kompakt */}

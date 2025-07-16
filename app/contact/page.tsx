@@ -34,8 +34,8 @@ export default function ContactPage() {
                   <Phone className="h-6 w-6 text-amber-600 mt-1 mr-4" />
                   <div>
                     <h4 className="font-semibold text-slate-900 mb-2">Telefon</h4>
-                    <p className="text-slate-600 text-lg">(99) 123-4567</p>
-                    <p className="text-slate-500 text-sm">Dushanba - Juma: 8:00 - 18:00</p>
+                    <p className="text-slate-600 text-lg">(93) 877-11-96</p>
+                    <p className="text-slate-500 text-sm">Dushanba - Juma: 9:00 - 18:00</p>
                   </div>
                 </div>
 
@@ -53,7 +53,8 @@ export default function ContactPage() {
                   <div>
                     <h4 className="font-semibold text-slate-900 mb-2">Ofis manzili</h4>
                     <p className="text-slate-600 text-lg">
-                    Samarqand, O'zbekiston
+                    Samarqand viloyati, Samarqand shahar, ul. Buyuk Ipak Yo‘li, dom 30 <br />
+Mo‘ljal: Povorot
                       <br />
                       {/* Shahar markazi, ST 12345 */}
                     </p>
@@ -65,8 +66,8 @@ export default function ContactPage() {
                   <div>
                     <h4 className="font-semibold text-slate-900 mb-2">Ish vaqti</h4>
                     <div className="space-y-1 text-slate-600">
-                      <p>Dushanba - Juma: 8:00 - 18:00</p>
-                      <p>Shanba: 9:00 - 14:00</p>
+                      <p>Dushanba - Juma: 9:00 - 18:00</p>
+                      <p>Shanba: 10:00 - 14:00</p>
                       <p>Yakshanba: Yopiq</p>
                     </div>
                   </div>
@@ -79,7 +80,7 @@ export default function ContactPage() {
                   Shoshilinch soliq yordami kerakmi? Biz muhim muddatlar uchun soliq mavsumida shoshilinch yordam taklif
                   qilamiz.
                 </p>
-                <p className="text-amber-600 font-semibold">Shoshilinch liniya: (99) 123-4568</p>
+                <p className="text-amber-600 font-semibold">Shoshilinch liniya: (93) 877-11-96</p>
               </div>
             </div>
 
@@ -93,7 +94,7 @@ export default function ContactPage() {
                       type="text"
                       required
                       className="w-full px-4 py-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-amber-500 focus:border-transparent"
-                      placeholder="Ahmadjon"
+                      placeholder="Ismingiz"
                     />
                   </div>
                   <div>
@@ -102,7 +103,7 @@ export default function ContactPage() {
                       type="text"
                       required
                       className="w-full px-4 py-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-amber-500 focus:border-transparent"
-                      placeholder="Karimov"
+                      placeholder="Familiyangiz"
                     />
                   </div>
                 </div>
@@ -113,7 +114,7 @@ export default function ContactPage() {
                     type="email"
                     required
                     className="w-full px-4 py-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-amber-500 focus:border-transparent"
-                    placeholder="ahmadjon@example.com"
+                    placeholder="emailingiz@example.com"
                   />
                 </div>
 
@@ -165,7 +166,7 @@ export default function ContactPage() {
                   <label className="flex items-center">
                     <input type="checkbox" className="rounded border-slate-300 text-amber-600 focus:ring-amber-500" />
                     <span className="ml-2 text-sm text-slate-600">
-                      Men so'rovim bo'yicha Sterling & Hamkorlardan xabarlar olishga roziman.
+                      Men so'rovim bo'yicha Galactikadan xabarlar olishga roziman.
                     </span>
                   </label>
                 </div>
